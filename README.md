@@ -17,4 +17,4 @@ This step simply looped through the "scrapingouput.txt" and split the data every
 
 ## 3. Vector Embedding
 
-We use Hugging Face's 
+We use Hugging Face's all-MiniLM-L12-v2 model in order to transform our chunks into vector embeddings. This step is important for efficient storage and retrieval of this data when inside our LLM's Knowledge base. 
